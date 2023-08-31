@@ -1,0 +1,83 @@
+body{
+    background: rgb(131,58,180);
+background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
+    font-family: sans-serif;
+    color: white;
+}
+main{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+.section2{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+}
+.estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+img{
+    width: 75px;
+}
+button{
+    border-radius: 8px;
+    background-color: rgba(256, 256, 256, 0.7);
+    border: 2px solid black;
+}
+button:hover{
+    transition: .3s;
+    background-color: rgba(256, 256, 256, 0.5);
+    border: 2px solid white;
+}
+@media (max-width : 576px){
+    main{
+        margin: 0;
+        display: block;
+    }
+    .section2{
+        width: 100%;
+        background-color: transparent;
+        padding: 0;
+    }
+    button{
+        height: 90px;
+        width: 90px;
+    }
+    img{
+        width: 65px;
+    }
+    .section1{
+        padding-top: 1px;
+    }
+}
