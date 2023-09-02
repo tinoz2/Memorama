@@ -1,10 +1,11 @@
 body{
     background: rgb(131,58,180);
-background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
+    background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
     font-family: sans-serif;
+    overflow-x: hidden;
     color: white;
 }
 main{
@@ -71,13 +72,24 @@ button:hover{
         padding: 0;
     }
     button{
-        height: 90px;
-        width: 90px;
+        height: 60px;
+        width: 60px;
     }
     img{
-        width: 65px;
+        width: 40px;
     }
     .section1{
         padding-top: 1px;
+    }
+    table{
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .estadisticas{
+        font-size: 1.2rem;
+        height: 80px;
     }
 }
